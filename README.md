@@ -1,21 +1,13 @@
 # NSK_Pepper_Helpful-Choregraphe-Boxes  
 We provide Choregraphe's helpful boxes.  
   
-■ Steps for adding a box library  
-　1. Download "***.cbl" from this page.  
-　2. Select "Open box library" from within the chart.  
-　3. Select the downloaded "***.cbl" and add it.  
+■ Box library  
+* Database Operation  
+    * You can execute SQL statements on existing database files.  
+    * 既存データベースファイルに対して、SQL文を実行することが出来ます。  
+    * 您可以对现有的数据库文件执行SQL语句。  
   
-----------  
-  
-■ボックスライブラリの追加手順  
-　1. 本ページより、「***.cbl」をダウンロードする  
-　2. コレグラフ内から、「ボックスライブラリを開く」を選択  
-　3. ダウンロードした「***.cbl」を選択し、追加する  
-  
-----------  
-  
-■指令盒库  
-　1. 在这个页面，请下载“***.cbl”  
-　2. 选择从Choregraphe“打开命令框库”  
-　3. 选择“***.cbl”您下载的  
+* Speech Scenario Compile  
+    * We will pre-compile the word list used in the Speech Reco box.  
+    * Speech Recoボックスで用いる単語リストを予めコンパイル致します。  
+    * 您预编译的语音RECO盒使用的单词的列表。  
