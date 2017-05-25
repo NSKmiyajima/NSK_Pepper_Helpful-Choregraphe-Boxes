@@ -1,3 +1,17 @@
+* Corresponding DB file  
+    * Please use the DB file created by sqlite3.  
+    * It is incompatible with the DB file created by sqlite 2.  
+  
+* 対応するDBファイル  
+    * sqlite3で作成したDBファイルを使用して下さい。  
+    * sqlite2で作成したDBファイルとは互換性がありません。  
+  
+* 相应的DB文件  
+    * 请使用在sqlite3的创建数据库文件  
+    * 与在sqlite2创建数据库文件不兼容  
+  
+====================  
+  
 ■ Steps for adding a box library  
 　1. Download "***.cbl" from this page.  
 　2. Select "Open box library" from within the chart.  
