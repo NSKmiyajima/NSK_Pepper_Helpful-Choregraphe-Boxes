@@ -71,47 +71,6 @@
   
 ====================  
   
-■ Variable input value in BOX.  
-* Word list  
-    * Try to recognize words from the list of words set in the parameters of the box.Please enter multiple words separated by ";".  
-    * Example : "a;b;c;d;e"  
-  
-* BNF_FILE_PATH  
-    * Please specify the absolute path to generate the BNF file.  
-    * Example : "/home/nao/asr/test.bnf"  
-  
-* LCF_FILE_PATH  
-    * Please specify the absolute path to generate the LCF file.  
-    * Example : "/home/nao/asr/test.lcf"  
-  
-■ BOX内の変数入力値  
-* Word list  
-    * パラメータに設定されている単語のリストから単語を認識します。複数の単語を";"で区切って記入して下さい。  
-    * Example : "a;b;c;d;e"  
-  
-* BNF_FILE_PATH  
-    * BNFファイルを生成するパスを絶対パスで指定して下さい。  
-    * Example : "/home/nao/asr/test.bnf"  
-  
-* LCF_FILE_PATH  
-    * LCFファイルを生成するパスを絶対パスで指定して下さい。  
-    * Example : "/home/nao/asr/test.lcf"  
-  
-■ 在BOX变量的输入值  
-* Word list  
-    * 单词的列表，这是在参数中设置将尝试从认识的单词。请填写由分离;多个单词“;”的。  
-    * Example : "a;b;c;d;e"  
-  
-* BNF_FILE_PATH  
-    * 请注明完整路径生成一个BNF文件。  
-    * Example : "/home/nao/asr/test.bnf"  
-  
-* LCF_FILE_PATH  
-    * 请注明完整路径生成一个LCF文件。  
-    * Example : "/home/nao/asr/test.lcf"  
-  
-====================  
-  
 ■ Image of BOX  
 Please put compile.png in the following directory.  
   
