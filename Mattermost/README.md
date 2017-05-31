@@ -72,14 +72,14 @@
 ====================  
   
 ■ Image of BOX  
-Please put compile.png in the following directory.  
+Please put Mattermost.png in the following directory.  
   
 "C:\Program Files (x86)\Aldebaran\Choregraphe Suite 2.4\share\choregraphe\media\images\box"  
   
 ■ BOXの画像  
-compile.pngを下記ディレクトリに置いて下さい。  
+Mattermost.pngを下記ディレクトリに置いて下さい。  
 "C:\Program Files (x86)\Aldebaran\Choregraphe Suite 2.4\share\choregraphe\media\images\box"  
   
 ■ 图像的BOX  
-在compile.png放置到以下目录。  
+在Mattermost.png放置到以下目录。  
 "C:\Program Files (x86)\Aldebaran\Choregraphe Suite 2.4\share\choregraphe\media\images\box"  
