@@ -11,3 +11,13 @@ We provide Choregraphe's helpful boxes.
     * We will pre-compile the word list used in the Speech Reco box.  
     * Speech Recoボックスで用いる単語リストを予めコンパイル致します。  
     * 您预编译的语音RECO盒使用的单词的列表。  
+  
+* Mattermost  
+    * We will send notifications in cooperation with "mattermost".  
+    * "mattermost"と連携し、通知を送信します。  
+    * 在与“mattermost”，并发出通知合作。  
+  
+* Socket  
+    * Socket communication can be performed.  
+    * ソケット通信を行うことができます。  
+    * 你可以做一个socket通信。  
