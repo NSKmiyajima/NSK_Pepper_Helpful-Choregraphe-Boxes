@@ -21,3 +21,8 @@ We provide Choregraphe's helpful boxes.
     * Socket communication can be performed.  
     * ソケット通信を行うことができます。  
     * 你可以做一个socket通信。  
+
+* PersonDetection  
+    * Measure the distance to the person, detect the person by checking the face of the person nearby.  
+    * 人との距離を測定し、近くにいる人物の顔を確認して人物検知をします。  
+    * 测量和人检测了人与人之间的距离，以确定一个人在附近的脸。  
