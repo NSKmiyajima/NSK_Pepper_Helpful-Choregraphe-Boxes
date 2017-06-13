@@ -18,44 +18,47 @@
 ■ Procedure for using the box  
 * Server box  
 　1. Open the "server box" setting screen  
-　2. In the variable "PORT", specify the port number to be used for socket communication.  
-　3. In the variable "FILE_PATH", specify the storage path and file name of the received file as an absolute path.  
-　4. When inputting a signal to "onStart" in the box, it outputs the standby state to the log and is output from "onStopped"  
+　2. In the variable "PORT", specify the port number to be used for socket communication on the receiving side.  
+　3. When inputting a signal to "onStart" in the box, it outputs the standby state to the log and is output from "onStopped"  
   
 　* Client box  
 　1. Open the setting screen of "client box"  
 　2. In the variable "HOST", specify the IP address of the server side of the socket communication.  
-　3. In the variable "PORT", specify the port number to be used for socket communication.  
+　3. In the variable "PORT", specify the port number of the socket communication server. 
 　4. In the variable "FILE_PATH", specify the absolute path of the file to be sent.  
-　5. When you input a signal to "onStart" in the box, it outputs the standby state to the log and is output from "onStopped"  
+　5. When you input a signal to "onStart" in the box, the file is sent to server and output from "onStopped".  
+  
+※  The transmitted file is transferred under "/ tmp / socket_HHMMSS /" directory.
   
 ■ ボックスの利用手順  
 * serverボックス  
 　1. 「serverボックス」の設定画面を開く  
-　2. 変数の「PORT」に、ソケット通信をする際に使用するポート番号を指定する。  
-　3. 変数の「FILE_PATH」に、受信するファイルの格納パスとファイル名を絶対パスで指定する。  
-　4. ボックスの「onStart」に信号を入力すると、ログに待機状態を出力して「onStopped」から出力されます。  
+　2. 変数の「PORT」に、受け側のソケット通信をする際に使用するポート番号を指定する。  
+　3. ボックスの「onStart」に信号を入力すると、ログに待機状態を出力してclient側からの通信を待機します。  
   
 * clientボックス  
 　1. 「clientボックス」の設定画面を開く  
-　2. 変数の「HOST」に、ソケット通信のserver側のIPアドレスを指定する。  
-　3. 変数の「PORT」に、ソケット通信をする際に使用するポート番号を指定する。  
+　2. 変数の「HOST」に、ソケット通信のサーバーのIPアドレスを指定する。  
+　3. 変数の「PORT」に、ソケット通信のサーバーのポート番号を指定する。  
 　4. 変数の「FILE_PATH」に、送信するファイルの絶対パスを指定する。  
-　5. ボックスの「onStart」に信号を入力すると、ログに待機状態を出力して「onStopped」から出力されます。  
+　5. ボックスの「onStart」に信号を入力すると、サーバーにファイルを送信して「onStopped」から出力されます。  
+  
+※送信したファイルは"/tmp/socket_HHMMSS/"ディレクトリ配下に転送されます。  
   
 ■ 使用过程箱  
 * server 箱  
 　1. 打开“server箱”的设置屏幕  
-　2. 可变的“PORT”，来指定要使用的套接字通信时的端口号。  
-　3. 变量“FILE_PATH”，指定与绝对路径接收到的文件存储路径和文件名。  
-　4. 如果输入信号框中的“在onStart”，并输出日志处于待机状态将从“onStopped”输出。  
+　2. 到可变的“PORT”，以指定的端口号使用时套接字通信的接收侧。  
+　3. 如果输入信号框中的“在onStart”，并输出日志处于待机状态将从“onStopped”输出。  
   
 * client 箱  
 　1. 打开“client箱”的设置屏幕  
 　2. 该变量的“HOST”，指定socket通信的服务器端的IP地址。  
-　3. 到可变的“PORT”，以指定当插座通信中使用的端口号。  
+　3. 该变量的“PORT”，指定socket通信服务器的端口号。  
 　4. 该变量的“FILE_PATH”，指定要发送的文件的完整路径。  
-　5. 如果输入信号框中的“在onStart”，并输出日志处于待机状态将从“onStopped”输出。  
+　5. 如果输入信号框中的“在onStart”，并发送文件到服务器会从“onStopped”输出。  
+  
+※提交的文件将在“/ tmp目录/ socket_HHMMSS/”目录下被转移到。  
   
 ====================  
   

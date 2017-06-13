@@ -18,9 +18,9 @@ We provide Choregraphe's helpful boxes.
     * 在与“mattermost”，并发出通知合作。  
   
 * Socket  
-    * Socket communication can be performed.  
-    * ソケット通信を行うことができます。  
-    * 你可以做一个socket通信。  
+    * Communicate files by socket communication.  
+    * ソケット通信によって、ファイルを伝達します。  
+    * 通过socket通信，然后传输文件。  
 
 * PersonDetection  
     * Measure the distance to the person, detect the person by checking the face of the person nearby.  
